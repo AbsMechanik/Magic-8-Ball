@@ -12,6 +12,7 @@
 		15242B232092DA43006087A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15242B212092DA43006087A3 /* Main.storyboard */; };
 		15242B252092DA45006087A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 15242B242092DA45006087A3 /* Assets.xcassets */; };
 		15242B282092DA45006087A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15242B262092DA45006087A3 /* LaunchScreen.storyboard */; };
+		15242B302092E142006087A3 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15242B2F2092E142006087A3 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		15242B242092DA45006087A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		15242B272092DA45006087A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		15242B292092DA45006087A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15242B2F2092E142006087A3 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				15242B1D2092DA43006087A3 /* AppDelegate.swift */,
 				15242B1F2092DA43006087A3 /* ViewController.swift */,
 				15242B212092DA43006087A3 /* Main.storyboard */,
+				15242B2F2092E142006087A3 /* RoundButton.swift */,
 				15242B242092DA45006087A3 /* Assets.xcassets */,
 				15242B262092DA45006087A3 /* LaunchScreen.storyboard */,
 				15242B292092DA45006087A3 /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				15242B302092E142006087A3 /* RoundButton.swift in Sources */,
 				15242B202092DA43006087A3 /* ViewController.swift in Sources */,
 				15242B1E2092DA43006087A3 /* AppDelegate.swift in Sources */,
 			);
@@ -290,7 +294,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.absmechanik.Magic-8-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -308,7 +312,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.absmechanik.Magic-8-Ball";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
